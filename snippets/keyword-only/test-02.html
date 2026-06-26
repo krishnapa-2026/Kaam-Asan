@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<stl_head>
+<title><tag:domain_name /></title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=<tag:charset />">
+<tag:reset_css />
+<style type="text/css">
+.ios_fix{width: 1px; min-width: 100%; *width: 100%;}
+.wrapper{height: 250px;position: relative; overflow: hidden;
+background: <tagd:style name="MainArea" value="#fff" type="color" />;  margin:0 <tagd:style name="MainArea" value="0" type="tallness" />px;
+}
+
+.header_title{position: absolute;top:3px;right:14px;line-height: 16px;
+font-family: <tagd:style name="HeaderArea" value="Arial" type="font-family" />, sans-serif;
+font-size:<tagd:style name="HeaderArea" value="14px" type="font-size" />;
+color: <tagd:style name="ResultsHeaderText" value="#7a7272" type="color" />;
+text-transform:<tagd:style name="HeaderArea" value="none" type="textCase" />;
+font-weight:<tagd:style name="HeaderTextBold" value="normal" type="checkbox" />;
+}
+
+.list_wrapper * {box-sizing: border-box;}
+
+li .content{position:relative; padding: 0 37px 0 17px; overflow: hidden;
+     background:<tagd:style name="KeywordArea" value="#fff" type="color" />;
+     border-bottom : 2px solid <tagd:style name="KeywordArea2" value="#000000" type="color" />;
+    }
+li .num {position: absolute; top: 50%; left: 0; height: 8px; width: 8px; border-radius: 50%; transform: translateY(-50%);
+ background-color: <tagd:style name="Bullet" value="#666666" type="color" />;
+}
+/*  */
+li .arrow{position: absolute;top:50%; right: 0; height: 25px; width: 25px; text-align: center; opacity: 29%; background: <tagd:style name="BulletBackGround" value="#6B5C5C" type="color" />; overflow: hidden;border-radius: 50%; transform: translateY(-50%); }
+
+li .arrow svg {height: 100%;overflow: visible; margin-left: 2px; }
+li .arrow path {fill: <tagd:style name="BulletShape" value="#fff" type="color" />; 
+stroke: <tagd:style name="BulletShape" value="#fff" type="color" />;}
+
+li .anchortext{display: flex; align-items: center; height: 70px;}
+
+
+li .anchortext a{line-height:21px;max-height:63px;word-wrap: break-word; overflow: hidden;display: block;
+position: relative;
+font-family: <tagd:style name="Keywords" value="FarnhamDisplay-Medium" type="font-family" />, Arial, sans-serif;
+font-size:<tagd:style name="Keywords" value="16px" type="font-size" />;
+color:<tagd:style name="Keywords" value="#000000" type="color" />;
+text-transform:<tagd:style name="Keywords" value="default" type="textCase" />;
+font-weight:<tagd:style name="KeywordsBold" value="normal" type="checkbox" />;
+}
+
+li:hover .content{background:<tagd:style name="KeywordArea2" value="" type="color" />;}
+li .num:hover{background: <tagd:style name="BulletNumber" value="" type="color" />;}
+li:hover .arrow {background: <tagd:style name="ResultsAdUrl" value="#000000" type="color" />; opacity: 100%;}
+li:hover .arrow path{fill: <tagd:style name="BulletText" value="#fff" type="color" />; stroke: <tagd:style name="BulletText" value="#fff" type="color" />; />}
+li:hover .anchortext a{color: <tagd:style name="KeywordsHoverColor" value="" type="color" />;
+text-decoration:<tagd:style name="KeywordsHoverUnderline" value="none" type="checkbox" />;}
+.list_wrapper{overflow: hidden;padding: 16px 14px 0 13px;}
+.list_1{width: 100%;}
+li{position: relative; overflow: hidden; *float:left;}
+li:first-child {margin-top: 0;}
+
+li .anchorhref{position: absolute; display: block; width: 100%; height: 100%; left: 0; top: 0; overflow: hidden;z-index: 999; background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAFoEvQfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA1JREFUeNpj+P//PwMACPwC/njEsrAAAAAASUVORK5CYII=') right top no-repeat;}
+
+.header_wrap{position: absolute;bottom:1px;left:1px;font-family: Arial,sans-serif;z-index:999;display: flex; align-items: center;flex-wrap: wrap;height: 14px;overflow: hidden;}
+.header{height: 12px;width: 14px;background-color: #142c58;color: #fff; font-size: 7px;border-radius: 2px;text-align: center;font-weight: bold;display: flex;align-items: center;justify-content: center;}
+.header_wrap .sep{margin:0 3px;background: <tagd:style name="HeaderText" value="#7a7272" type="color" />; width:1px;height:12px;}
+.brand_txt{font-size:<tagd:style name="HeaderText" value="11px" type="font-size" />;font-family: <tagd:style name="HeaderText" value="Arial" type="font-family" />, Arial, sans-serif;}
+.brand_txt a{color: <tagd:style name="HeaderText" value="#7a7272" type="color" />;}
+
+
+</style>
+</stl_head>
+<stl_body>
+<tag:post_form_html />
+<div class="ios_fix">
+    <div class="wrapper">
+        <div class="header_title"><tagd:style name="HeaderText" value="Search for" type="content" /></div>
+        <div class="list_wrapper">
+            <ul class="list_1"> 
+                <li>
+                    <div class="content">
+                        <div class="num"></div>
+                        <div class="anchortext">
+                            <domain_keyword:1 />
+                        </div>  
+                        <div class="arrow">
+                            <svg width="7" height="10" viewBox="0 0 7 10" fill="none" >
+                                <path d="M0 10V0L7 4.70588L0 10Z" fill="white"/>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <a href="#" class="dak1 anchorhref"></a>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="num"></div>
+                        <div class="anchortext">
+                            <domain_keyword:2 />
+                        </div>  
+                        <div class="arrow">
+                            <svg width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                <path d="M0 10V0L7 4.70588L0 10Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#" class="dak2 anchorhref"></a>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="num"></div>
+                        <div class="anchortext">
+                            <domain_keyword:3 />
+                        </div>  
+                        <div class="arrow">
+                            <svg width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                <path d="M0 10V0L7 4.70588L0 10Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#" class="dak3 anchorhref"></a>
+                </li>
+                
+               
+            </ul>
+        </div>
+        <div class="header_wrap">
+            <div class="header">Ad</div>
+            <div class="sep"></div>
+            <div class="brand_txt" id="brand_txt"></div>
+        </div>
+        <ad_preferences  hideIconCss="bottom:0;right:14;" />
+    </div>
+</div>
+<script type="text/javascript">
+    var domainText = "";
+    var domainLink = "";
+    var newDomainLink,href;
+    function formatViewAfterLoad(){
+        try{
+            domainText = <tag:advertiser_adv />;
+            domainLink = <tag:advertiser_domain />;
+            var hostName=domainLink.split("/");
+            var splitDomainLink = hostName[2].split(".");
+            var subDomainList=["related","listings","content","topics","search"];
+            href=domainLink;
+            for(var i=0;i<subDomainList.length;i++){
+                if(splitDomainLink[0]==subDomainList[i]){
+                    newDomainLink=domainLink.replace(subDomainList[i]+".","");
+                    href=newDomainLink;
+                }
+            }
+            var brandDiv = document.getElementById("brand_txt");
+            brandDiv.innerHTML = "<a href="+href+" target='_blank'>"+domainText+"</a>";
+        }
+        catch(err){
+            console.log(err);
+        }
+    }
+</script>
+</stl_body>
+</html>
